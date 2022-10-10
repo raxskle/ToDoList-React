@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  
+
+  .title {
+    font-size: 80px;
+    width: 90%;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(97, 218, 251);
+  }
+
+  .pageTail {
+    > p {
+      color: rgb(181, 181, 181);
+    }
+  }
+}
